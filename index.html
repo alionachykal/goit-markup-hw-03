@@ -9,23 +9,28 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+        <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
         <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
-      <header class="page-header">
-        <nav>
+      <div class="container">
+
+        <header class="page-header">
         <a href="./index.html" class="logo-page-header" lang="en"><span class="web-logo">Web</span>Studio</a>
+        <nav>
         <ul class="site-nav-list">
-        <li><a href="" class="link">Студия</a></li>
-        <li><a href="./portfolio.html" class="resume">Портфолио</a></li>
-        <li><a href=""class="contacts">Контакти</a></li>
+        <li class="nav-item"><a href="" class="link">Студия</a></li>
+        <li class="nav-item"><a href="./portfolio.html" class="resume">Портфолио</a></li>
+        <li class="nav-item"><a href=""class="contacts">Контакти</a></li>
         </ul>
         </nav>
+
       <ul class="site-nav2">
-        <li><a href="mailto:info@devstudio.com" class="mail">info@devstudio.com</a></li>
-        <li><a href="#" class="number">+38 096 111 11 11</a></li>
+        <li class="nav-item2"><a href="mailto:info@devstudio.com" class="mail">info@devstudio.com</a></li>
+        <li class="nav-item2"><a href="#" class="number">+38 096 111 11 11</a></li>
      </ul>
       </header>
+
       <main>
           <section class="hero">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
@@ -33,7 +38,7 @@
 </section>
           <section class="features"> 
               <h2 class="features-title-main"> Наше преимущество</h2>
-              <ul>
+              <ul class="features-list">
                   <li>
                       <h3 class="features-title">Внимание к деталям</h3>
                       <p class="title-list">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -68,7 +73,7 @@
             </section>
             <section class="staff">
             <h2 class="staff-title">Наша команда</h2>
-             <ul>
+             <ul class="staff-title-list">
              <li>
              <img src="./images/img3_1.jpg" width="270" height="260" alt="Игорь Демьяненко Product Designer">
              <h3 class="staff-list">Игорь Демьяненко</h3> 
@@ -102,5 +107,6 @@
           </ul>
         </address>
       </footer>
+    </div>
   </body>
 </html>

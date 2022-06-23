@@ -9,34 +9,36 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
      rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
+    <div class="container">
 <header class="page-header">
-        <nav>
             <a href="./index.html" class="logo-page-header" lang="en"><span class="web-logo">Web</span>Studio</a>
-            <ul>
-                <li><a href="./index.html" class="link2">Студия</a></li>
-                <li><a href=""class="resume2">Портфолио</a></li>
-                <li><a href=""class="contacts">Контакти</a></li>
+            <nav>
+            <ul class="site-nav-list">
+                <li class="nav-item"><a href="./index.html" class="link2">Студия</a></li>
+                <li class="nav-item"><a href=""class="resume2">Портфолио</a></li>
+                <li class="nav-item"><a href=""class="contacts">Контакти</a></li>
             </ul>
         </nav>
-        <ul>
-            <li><a href="mailto:info@devstudio.com"class="mail">info@devstudio.com</a></li>
-            <li><a href="#"class="number">+38 096 111 11 11</a></li>
+        <ul class="site-nav2">
+            <li class="nav-item2"><a href="mailto:info@devstudio.com"class="mail">info@devstudio.com</a></li>
+            <li class="nav-item2"><a href="#"class="number">+38 096 111 11 11</a></li>
         </ul>
     </header>
     <main>
         <section>
             <h1 class="visually-hidden">Портфолио</h1>
-            <ul>
-                <li><button type="button" class="button-list active">Все</button></li>
-                <li><button type="button" class="button-list">Веб-сайты</li>
-                <li><button type="button" class="button-list">Приложения</li>
-                <li><button type="button" class="button-list">Дизайн</li>
-                <li><button type="button" class="button-list">Маркетинг</li>
+            <ul class="button-port">
+                <li class="button-port-item"><button type="button" class="button-list active">Все</button></li>
+                <li class="button-port-item"><button type="button" class="button-list">Веб-сайты</li>
+                <li class="button-port-item"><button type="button" class="button-list">Приложения</li>
+                <li class="button-port-item"><button type="button" class="button-list">Дизайн</li>
+                <li class="button-port-item" ><button type="button" class="button-list">Маркетинг</li>
             </ul>
-           <ul>
+           <ul class="offers">
             <li><img src="./images/img7.jpg"class="" width="370" height="294" alt="Технокряк">
                 <h3 class="work-title2">Технокряк</h3>
                 <p class="work-list2">Веб-сайт</p></li>
@@ -78,5 +80,6 @@
             </ul>
         </address>
     </footer>
+    </div>
 </body>
 </html>
