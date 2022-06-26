@@ -9,7 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"/>
         <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
@@ -61,13 +62,13 @@
               <h2 class="work-title">Чем мы занимаемся</h2>
               <ul class="work-list">
                 <li>
-                <img src="./images/img1_1.jpg" width="370" height="294" alt="проектируем сайты">
+                <img class="img-class" src="./images/img1_1.jpg" width="370" height="294" alt="проектируем сайты">
                 </li>
                 <li>
-                    <img src="./images/img3.jpg" width="370" height="294" alt="сайты для любых девайсов">
+                    <img  class="img-class" src="./images/img3.jpg" width="370" height="294" alt="сайты для любых девайсов">
                 </li>
                 <li>
-                    <img src="./images/img2_1.jpg" width="370" height="294" alt="графическое оформление">
+                    <img class="img-class" src="./images/img2_1.jpg" width="370" height="294" alt="графическое оформление">
                 </li>
             </ul>
             </section>
@@ -90,23 +91,30 @@
             <p class="staff-position">Marketing</p>
             </li>
             <li>
-                <img src="./images/img6_1.jpg" width="270" height="260" alt="Михаил Ермаков Designer">
-                <h3 class="staff-list">Михаил Ермаков</h3> 
-                <p class="staff-position">UI Designer</p>
+            <img src="./images/img6_1.jpg" width="270" height="260" alt="Михаил Ермаков Designer">
+             <h3 class="staff-list">Михаил Ермаков</h3> 
+             <p class="staff-position">UI Designer</p>
             </li>
-                </ul>
+            </ul>
             </section>
+    
       </main>
       <footer class="main-footer ">
+      <div class="footer-web-logo"> 
         <a href="./index.html" class="logo-footer" lang="en"><span class="web-logo">Web</span>Studio</a>
       <address>
-         <ul>
+      
+         <ul class="footer-nav">
           <li><a href="https://goo.gl/maps/piqngm7oDQpEDh6u6" class="location" target="_blank" rel="noopener nofollow noreferrer">г. Киев, пр-т Леси Украинки, 26 </a></li> 
           <li><a href="mailto:info@example.com"class="footer-mail">info@example.com </a></li> 
           <li><a href="#"class="footer-number">+38 099 111 11 11 </a></li>
           </ul>
+    
         </address>
+        </div>
+
+        
       </footer>
-    </div>
+      </div>
   </body>
 </html>
