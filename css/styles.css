@@ -16,8 +16,13 @@ box-sizing: border-box;
 }
 .container{
     width: 1200px;
-    margin-left: 15px;
-    margin-right: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto ;
+}
+
+.page-header .container{
+    display: flex;
 }
 
 
@@ -107,9 +112,6 @@ address {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-.section {
-    padding-top: 94px;
-    padding-bottom: 94px;}
 
 .logo-page-header {
         font-family: 'Raleway';
@@ -154,6 +156,7 @@ margin-left: 93px;
 .site-nav2{
 display: flex;
 margin-left: auto;
+
     }
     .nav-item{
         margin-left: 50px;
@@ -175,18 +178,6 @@ margin-left: auto;
         margin-left: auto;
     }
 
-.container{
- width: 1200px;
- padding-right: 15px;
-padding-right: 15px;
-padding: 24px 0;
-display: flex;
-align-items: center;
-justify-content: space-around;
-
-
-
-}
 .button-port{
     display: flex;
     flex-direction: row;
@@ -277,10 +268,20 @@ justify-content: space-around;
     line-height: 1.14;
     padding-top: 32px;
      padding-bottom: 32px;
-     margin-right: 50px;
-    
-    
+     margin-right: 50px;  
 }
+.mail2{
+    color:#757575;
+    text-decoration: none;
+        font-weight: 500;
+        letter-spacing: 0.02em;
+        line-height: 1.14;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        margin-right: 50px;
+    }
+
+
 
 .number{
     color:#757575;
@@ -292,6 +293,9 @@ justify-content: space-around;
     padding-top: 32px;
     padding-bottom: 32px;
 }
+
+    
+
 
 /*hero*/
 .hero-title,.features-title, .work-title, .staff-title{
@@ -395,7 +399,7 @@ justify-content: space-around;
 
 /* work*/
 .work-section{
-    padding: 94px 0;
+    padding: 94px 94px;
 }
 
 .work-title{
@@ -654,7 +658,6 @@ padding: 60px 30px;
 
 .offers-item {
     flex-basis: calc(100%-90px)/3;
-    margin-right: 30px;
     margin-bottom: 30px;}
 
 .card-border{
