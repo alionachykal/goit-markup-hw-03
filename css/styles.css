@@ -149,9 +149,8 @@ address {
 
 /* site-nav */
 .site-nav-list{
-display: flex;
-margin-left: 93px;
-}
+display: flex;}
+
 
 .site-nav2{
 display: flex;
@@ -161,15 +160,11 @@ margin-left: auto;
     .nav-item{
         margin-left: 50px;
     }
+    .nav-item:first-child{
+        margin:0;
+    }
    
-    .nav-item2{
-        margin-left: 50px;
-
-    }
-    .nav-item2:last-child{
-        margin: 0;
-
-    }
+    
     .header-box1{
         display: flex;
         align-items: center;
@@ -225,10 +220,8 @@ margin-left: auto;
     line-height: 1.14;
     letter-spacing: 0.02em;
     padding-top: 32px;
-    padding-bottom: 32px
-   
-}
-
+    padding-bottom: 32px;}
+  
 .resume:hover,:focus{
     color:var(--accent-color);
 }
@@ -261,26 +254,29 @@ margin-left: auto;
     color:var(--accent-color)
 }
 .mail{
-    color: #2196f3;
+    color:#757575; 
     text-decoration: none;
     font-weight: 500;
     letter-spacing: 0.02em;
     line-height: 1.14;
     padding-top: 32px;
      padding-bottom: 32px;
-     margin-right: 50px;  
+
+}
+
+.mail:hover,:focus{ 
+    color:#2196F3;
+    
 }
 .mail2{
-    color:#757575;
+    color: #757575;
     text-decoration: none;
-        font-weight: 500;
-        letter-spacing: 0.02em;
-        line-height: 1.14;
-        padding-top: 32px;
-        padding-bottom: 32px;
-        margin-right: 50px;
-    }
-
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 1.14;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
 
 
 .number{
@@ -292,6 +288,7 @@ margin-left: auto;
     line-height: 1.14;
     padding-top: 32px;
     padding-bottom: 32px;
+    margin-left: 50px;
 }
 
     
@@ -313,13 +310,6 @@ margin-left: auto;
     background-color:var(--primary-bcg-color);
     padding: 94px 0;
 
-}
-.portfolio-container{
-    display: flex;
-    margin-top: 94px;
-    flex-basis: 8px;
-    
-    
 }
 
 .hero-title{
