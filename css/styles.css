@@ -348,6 +348,12 @@ margin-left: auto;
     text-align: center;
     column-gap: 30px;
 }
+.container-features{
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 .features-title-main{
     opacity: 0; 
     display: none;
