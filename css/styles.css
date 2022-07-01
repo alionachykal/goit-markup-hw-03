@@ -395,7 +395,14 @@ margin-left: auto;
 
 /* work*/
 .work-section{
-    padding: 94px 94px;
+    padding-bottom: 94px;
+}
+.work-container{
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
 }
 
 .work-title{
@@ -439,7 +446,15 @@ margin-left: auto;
 /*staff*/
 .staff-section{
     background-color:#F5F4FA;
-    padding: 94px 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.staff-container{
+    width: 1200px;
+     margin: 0 auto;
+     padding-left: 15px;
+     padding-right: 15px;
+    
 }
 .staff-title{
     color: var(--title-text-color);
@@ -564,7 +579,7 @@ ul{
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
      0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
+
 
     }
     .button-list.active:hover,
@@ -637,7 +652,7 @@ padding: 60px 30px;
 
 }
 .portfolio-section{
-    padding: 94px 94px;
+    padding: 94px 0;
 
 }
 .offers {
