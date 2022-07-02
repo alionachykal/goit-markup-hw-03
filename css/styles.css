@@ -340,7 +340,6 @@ margin-left: 0;
      font-style: normal;
      font-weight: normal;
      letter-spacing: 0.03em;
-     
      margin-bottom: 0;
 
 }
@@ -591,7 +590,7 @@ color: var(--title-text-color)
 
 /*footer*/
 .section.footer{
-padding: 94px 0;
+padding: 60px 0;
  background-color: #2F303a;
  
 }
