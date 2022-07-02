@@ -97,6 +97,7 @@ address {
 .header-nav{
     display: flex;
      align-items: center;
+     margin-right: auto;
 
 }
 
@@ -150,7 +151,7 @@ address {
 /* site-nav */
 .site-nav-list{
 display: flex;
-margin-right: 331px;
+
 }
 
 
@@ -400,8 +401,12 @@ margin-left: 0;
 }
 
 /* work*/
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .section.work{
-    padding: 94px 0;
+    padding-top: 0;
 }
 
 
